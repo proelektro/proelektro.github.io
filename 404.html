@@ -19,37 +19,49 @@
 <div id="outer-wrapper">
 <div id="header-wrapper">
   <div class="logo"><img src="/theme/img/proelektro_bw.svg"><a href="#">proelektro.github.io</a></div>
-  <div class="small">Programming & Elektro</div>
+  <div class="small hide-for-small-only">Programming & Elektro</div>
     <div class="nav hide-for-small-only">
   <li><a href="/">Home</a></li>
   <li><a href="/components/">Components</a></li>
   <li><a href="/about/">About</a></li>
   <li><a href="/archives/">Archives</a></li>
     </div>
+    
+    <a class="hide-for-large-only button secondary small float-left sticky" data-toggle="offCanvasLeft"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+    <div class="hide-for-large-only">
+<div class="off-canvas-absolute position-right" id="offCanvasLeft" data-off-canvas>
+      <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+      </button>
+<ul class="vertical menu">
+      <li><a href="/">Home</a></li>
+      <li><a href="/components/">Components</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/archives/">Archives</a></li>
+</ul>
+</div>    </div>
 </div>    <div id="main" class="row">
     <div class="small-10 columns"><h2 align="center">Page not found!</h2>
 <p>You incorrectly typed the address or the page has been removed by the author.</p>
 </div>
     <div class="small-2 columns">
-    <div class="columns small-6 right" data-sticky-container>
-    <div class="sticky" data-sticky data-margin-top="0">
+    <div class="columns small-6 right hide-for-small-only" data-sticky-container>
+    <div class="sticky hide-for-small-only" data-sticky data-margin-top="0">
 
-    <div class="card" style="width: 150px;">
-  <div class="card-divider">
+    <div class="card hide-for-small-only" style="width: 150px;">
+  <div class="card-divider hide-for-small-only">
     <small>Proelektro Shop</small>
   </div>
-  <div class="card-section">
-    <a class="button small success" href="http://tokopedia.com/proelektro" target="_blank"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Tokopedia</a>
-    <a class="button small warning" href="http://bukalapak.com" target="_blank" ><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Bukalapak</a>
-  </div>
-</div>
-
-    <!-- This sticky element would stick to the window, with a marginTop of 0 -->
-    </div>
-</div>
+  <div class="card-section hide-for-small-only">
+    <a class="button small success hide-for-small-only" href="http://tokopedia.com/proelektro" target="_blank"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Tokopedia</a>
+    <a class="button small warning hide-for-small-only" href="http://bukalapak.com" target="_blank" ><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Bukalapak</a>
     </div>
     </div>
-</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
 <div id="footer-wrapper">
 <ul class="footer">
 </ul><ul class="footer">
@@ -58,9 +70,9 @@
     <li><a href="http://github.com/proelektro">github</a>&nbsp;::</li>
 </ul>
 
-</div>    <script src="theme/js/vendor/jquery.js"></script>
-    <script src="theme/js/vendor/what-input.js"></script>
-    <script src="theme/js/vendor/foundation.js"></script>
-    <script src="theme/js/app.js"></script>
+</div>    <script src="/theme/js/vendor/jquery.js"></script>
+    <script src="/theme/js/vendor/what-input.js"></script>
+    <script src="/theme/js/vendor/foundation.js"></script>
+    <script src="/theme/js/app.js"></script>
 </body>
 </html>
